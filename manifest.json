@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI Summarizer",
+  "version": "1.0",
+  "description": "Summarize web pages or text using AI summarizer backend.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ]
+}
